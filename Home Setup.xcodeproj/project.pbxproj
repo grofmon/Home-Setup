@@ -12,8 +12,9 @@
 		F13316671611749100D078E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13316651611749100D078E8 /* InfoPlist.strings */; };
 		F13316691611749100D078E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13316681611749100D078E8 /* main.m */; };
 		F133166D1611749100D078E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F133166B1611749100D078E8 /* Credits.rtf */; };
-		F133166F1611749100D078E8 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F133166E1611749100D078E8 /* AppDelegate.applescript */; };
+		F133166F1611749100D078E8 /* Home Setup.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F133166E1611749100D078E8 /* Home Setup.applescript */; };
 		F13316721611749100D078E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13316701611749100D078E8 /* MainMenu.xib */; };
+		F133167D1611757E00D078E8 /* Home Setup.icns in Resources */ = {isa = PBXBuildFile; fileRef = F133167C1611757E00D078E8 /* Home Setup.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		F13316681611749100D078E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F133166A1611749100D078E8 /* Home Setup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Home Setup-Prefix.pch"; sourceTree = "<group>"; };
 		F133166C1611749100D078E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F133166E1611749100D078E8 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F133166E1611749100D078E8 /* Home Setup.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Home Setup.applescript"; sourceTree = "<group>"; };
 		F13316711611749100D078E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F133167C1611757E00D078E8 /* Home Setup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Home Setup.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		F133164B1611749000D078E8 = {
 			isa = PBXGroup;
 			children = (
+				F133167C1611757E00D078E8 /* Home Setup.icns */,
 				F13316621611749100D078E8 /* Home Setup */,
 				F13316591611749100D078E8 /* Frameworks */,
 				F13316571611749100D078E8 /* Products */,
@@ -85,7 +88,7 @@
 		F13316621611749100D078E8 /* Home Setup */ = {
 			isa = PBXGroup;
 			children = (
-				F133166E1611749100D078E8 /* AppDelegate.applescript */,
+				F133166E1611749100D078E8 /* Home Setup.applescript */,
 				F13316701611749100D078E8 /* MainMenu.xib */,
 				F13316631611749100D078E8 /* Supporting Files */,
 			);
@@ -158,6 +161,7 @@
 				F13316671611749100D078E8 /* InfoPlist.strings in Resources */,
 				F133166D1611749100D078E8 /* Credits.rtf in Resources */,
 				F13316721611749100D078E8 /* MainMenu.xib in Resources */,
+				F133167D1611757E00D078E8 /* Home Setup.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13316691611749100D078E8 /* main.m in Sources */,
-				F133166F1611749100D078E8 /* AppDelegate.applescript in Sources */,
+				F133166F1611749100D078E8 /* Home Setup.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
